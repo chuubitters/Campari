@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMPARI - Luxury Cars</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="logo">
+            <img src="campari-logo.png" alt="CAMPARI Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">หน้าหลัก</a></li>
+            <li><a href="#">รุ่นรถ</a></li>
+            <li><a href="#">บริการ</a></li>
+            <li><a href="#">เกี่ยวกับเรา</a></li>
+            <li><a href="#">ติดต่อเรา</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero-section">
+        <div class="slider-container">
+            <div class="slide active" style="background-image: url('hero-bg-1.png');"></div>
+            <div class="slide" style="background-image: url('hero-bg-2.png');"></div>
+            <div class="slide" style="background-image: url('hero-bg-3.png');"></div>
+        </div>
+
+        <div class="hero-content">
+            <h1>Save the classic.</h1>
+            <p>สัมผัสประสบการณ์เหนือระดับ</p>
+            <div class="dots">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="welcome-section">
+        <h2>WELCOME TO <span class="brand-font">CAMPARI</span></h2>
+        <p>เราคือผู้ให้บริการเช่ารถหรูครบวงจร เพื่อตอบโจทย์ไลฟ์สไตล์ที่เหนือกว่าของคุณ ด้วยมาตรฐานระดับสากล</p>
+    </section>
+
+    <section class="feature-split">
+        <div class="image-box">
+            <img src="silver-car.png" alt="Silver Car">
+        </div>
+        <div class="text-box">
+            <h3>ความลงตัวที่ไม่มีข้อหยุด</h3>
+            <h3>รถไฟฟ้าแห่งอนาคตที่คุณต้องลอง</h3>
+            <p>Find comfort & luxury with us.</p>
+            <a href="#" class="btn-black">สัมผัสประสบการณ์</a>
+        </div>
+    </section>
+
+    <section class="showcase-grid">
+        <div class="showcase-item" style="background-image: url('car-showcase-1.png');">
+            <div class="overlay-content right">
+                <h3>Campari Aperitivo</h3>
+                <a href="#" class="btn-outline">ข้อมูลเพิ่มเติม</a>
+            </div>
+        </div>
+        <div class="showcase-item" style="background-image: url('car-showcase-2.png');">
+            <div class="overlay-content left">
+                <h3>Campari Vesper</h3>
+                <a href="#" class="btn-outline">ข้อมูลเพิ่มเติม</a>
+            </div>
+        </div>
+        <div class="showcase-item" style="background-image: url('car-showcase-3.png');">
+            <div class="overlay-content right">
+                <h3>Campari Spritz</h3>
+                <a href="#" class="btn-outline">ข้อมูลเพิ่มเติม</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="center-btn-container">
+        <a href="#" class="btn-outline-dark">ดูรถรุ่นอื่น ๆ</a>
+    </div>
+
+    <section class="feature-split reverse">
+        <div class="text-box align-left">
+            <h3>บริการทางการเงิน</h3>
+            <p>ตรวจสอบข้อเสนอทางการเงินของ campari ที่หลากหลาย.</p>
+            <a href="#" class="btn-black">ติดต่อเรา</a>
+        </div>
+        <div class="image-box">
+            <img src="service-finance.png" alt="Financial Service">
+        </div>
+    </section>
+
+    <section class="promo-section" style="background-image: url('promo-bg.png');">
+        <div class="promo-content">
+            <h3>พบกับข้อเสนอสุดพิเศษ</h3>
+            <a href="#" class="btn-white">คลิกเลย</a>
+        </div>
+    </section>
+
+    <section class="news-section">
+        <h3 class="section-title">ข่าวสารอื่น ๆ</h3>
+        <div class="news-grid">
+            <div class="news-card">
+                <img src="news-1.png" alt="News 1">
+                <div class="news-info">
+                    <h4>การชาร์จ</h4>
+                    <p>ค้นหา</p>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="news-2.png" alt="News 2">
+                <div class="news-info">
+                    <h4>ค้นหาโชว์รูมใกล้คุณ</h4>
+                    <p>ค้นหา</p>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="news-3.png" alt="News 3">
+                <div class="news-info">
+                    <h4>ติดต่อเรา</h4>
+                    <p>ค้นหา</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h5>ติดต่อเรา</h5>
+                <p>123 ถนนสุขุมวิท กรุงเทพฯ</p>
+                <p>Tel: 02-123-4567</p>
+            </div>
+            <div class="footer-col">
+                <h5>ช่วยเหลือ</h5>
+                <p>เงื่อนไขการเช่า</p>
+                <p>นโยบายความเป็นส่วนตัว</p>
+            </div>
+            <div class="footer-logo">
+                <img src="campari-logo.png" alt="CAMPARI Logo Footer">
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
